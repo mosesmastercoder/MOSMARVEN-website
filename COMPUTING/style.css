@@ -1,0 +1,100 @@
+body {
+	background-image: url('C:/Users/moses/OneDrive/Documents/ass & acts/COMPUTING/860215.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#bigcontainer {
+	display: flex;
+	justify-content: center;
+}
+.container {
+	text-align: center;
+	color: #021526;
+	font-family: sans-serif;
+}
+.container p {
+	text-align: left;
+	font-size: 22px;
+
+}
+#div1, #div2, #div3 {
+	width: 500px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: auto;
+}
+#div1 {
+	background-color: rgba(255, 255, 255, 0.75);
+}
+#div2 {
+	background-color: rgba(255, 255, 255, 0.75);
+}
+#div3 {
+	background-color: rgba(255, 255, 255, 0.75);
+}
+p {
+	font-size : 20px;
+	color: BLACK;
+	margin: 40px;
+}
+#img1, #img2, #img3 {
+	margin-top: 45px;
+	transition: box-shadow 0.3 ease;
+}
+#img1 {
+	width: 350px; 
+    	height: auto;
+}
+#img1:hover {
+	 box-shadow: 0 0 15px rgba(2, 21, 38, 0.85);
+}
+#img2:hover {
+	 box-shadow: 0 0 15px rgba(2, 21, 38, 0.85);
+}
+#img3:hover {
+	 box-shadow: 0 0 15px rgba(2, 21, 38, 0.85);
+}
+.header-una {
+   	display: flex;
+   	justify-content: center;
+  	align-items: center; 
+	width: 100%;
+	padding-bottom: 5px;
+}
+#header2 {
+	text-align: center;
+	color: #201E43;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 200px;
+	letter-spacing: 1px;
+	margin: 0;
+	text-shadow: 
+    		-3px -3px 0 rgba(255, 255, 255, 1), 
+    		3px -3px 0 rgba(255, 255, 255, 1), 
+    		-3px 3px 0 rgba(255, 255, 255, 1),  
+    		3px 3px 0 rgba(255, 255, 255, 1),   
+    		-2px -2px 0 rgba(255, 255, 255, 1),
+    		2px -2px 0 rgba(255, 255, 255, 1),  
+    		-2px 2px 0 rgba(255, 255, 255, 1),  
+    		2px 2px 0 rgba(255, 255, 255, 1); 
+}
+.image-container {
+    display: inline-block; 
+    position: relative;
+}
+#choose {
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+}
+.nodesign {
+	text-align: left;
+	font-size: 22px;
+	margin-left: 20px;
+}
+.bold-uppercase {
+    text-transform: uppercase;
+    font-weight: bold;
+}
